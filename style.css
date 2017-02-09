@@ -1,0 +1,88 @@
+html {
+    background: url(./SX4JNp.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-color: #b11c1a;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: url(./SX4JNp.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+iframe {
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+}
+
+#subs {
+    max-width: 610px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    /* Chrome 49+ */
+    -moz-user-select: none;
+    /* Firefox 43+ */
+    -ms-user-select: none;
+    /* No support yet */
+    user-select: none;
+    pointer-events: none;
+}
+
+.red {
+    color: #f84a4a;
+}
+
+.blue {
+    color: #538bf5;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+    iframe {
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+a {
+    color: white
+}
+
+
+/* CARD */
+.card-block {
+    color: black;
+}
+
+.card{
+    display: inline-block;
+    margin: 5px;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+.card{
+    display: inline-block;
+    margin: 0px;
+    margin-top: 5px;
+    width: 100%;
+}
+}
